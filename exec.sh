@@ -7,3 +7,4 @@ else
 fi
 echo -e "\e[1;33m${bold}Copying files...\e[0m";
 cp .vimrc ~/ -rf
+echo -e "\e[1;32m${bold}NVix is installed... Enjoy :)\e[0m";
