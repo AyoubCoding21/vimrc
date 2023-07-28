@@ -78,7 +78,7 @@ autocmd FileType c,cpp,cxx call lsp#register_server({
 
 nnoremap <C-g> :!g++ % -o %:r && chmod u+x ./%:r && ./%:r<CR>
 nnoremap <C-y> :!python3 %<CR>
-nnoremap <C-n> :w<CR>:!node %<CR> 
+nnoremap <C-o> :w<CR>:!node %<CR> 
 nnoremap <C-s> :w<CR>:!npx svelte-check %<CR> 
 nnoremap <C-p> :CtrlP<CR>
 nnoremap <C-b> :!chmod u+x ./%:r && ./%:r<CR>
@@ -94,7 +94,7 @@ nnoremap <leader>r :LspRename<CR>
 nnoremap <leader>f :LspFormat<CR>
 nnoremap <leader>t :ALEToggle<CR>
 nnoremap <leader>e :NERDTreeCWD<CR>
-nnoremap <leader>d :CocDefinition<CR>
+nnoremap <leader>de :CocDefinition<CR>
 nnoremap <leader>hc :CocHover<CR>
 nnoremap <leader>re :CocRename<CR>
 nnoremap <leader>fr :CocFormat<CR>
@@ -121,7 +121,7 @@ let g:coc_global_extensions = [
   \ 'coc-sql',
   \ 'coc-graphql',
   \ 'coc-emmet',
-  \ 'coc-clangd',
+  \ 'coc-ccls',
   \ ]
 
 set number
