@@ -87,7 +87,7 @@ nnoremap <leader>h :LspHover<CR>
 nnoremap <leader>r :LspRename<CR>
 nnoremap <leader>f :LspFormat<CR>
 nnoremap <leader>t :ALEToggle<CR>
-nnoremap <leader>e :NerdTreeCWD<CR>
+nnoremap <leader>e :NERDTreeCWD<CR>
 set number
 set cursorline
 set cursorcolumn
