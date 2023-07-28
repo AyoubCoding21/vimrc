@@ -89,6 +89,9 @@ Here are some keybindings that are used, I didn't want you to know everything so
 
 **<leader>f :** Format (using vim-lsp).
 
+**<leader>r :** Rename a variable globally (using vim-lsp).
+
+
 
 
 # Commits, issues and infos
