@@ -15,7 +15,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE, vim-lsp
 
 ```sh
 apt install git curl yarn -y --no-install-recommends npm
-mkdir -p .vim/{plugged, autoload}
+mkdir -p .vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
 cd NVix/
@@ -27,15 +27,15 @@ vim
 
 ```sh
 apt install git curl yarn -y --no-install-recommends nodejs
-mkdir -p .vim/{plugged, autoload}
+mkdir -p .vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
 cd NVix/
-chmod u+x ./exec.sh && ./exec.sh
+bash ./exec.sh
 vim
 ```
 
-Then sit down and wait for the instalation, it took me 16 minutes on my Samsung Galaxy A2 Core, I hope it isn't that long for you guys but it could a good time to have a coffee-break.
+Then sit down and wait for the instalation, it took me 16 minutes on my Samsung Galaxy A2 Core with a Wi-Fi network on the country-side (because It's slow), I hope it isn't that long for you guys but it could a good time to have a coffee-break.
 
 And then run these commands to initialise coc.nvim:
 
