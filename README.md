@@ -59,7 +59,7 @@ Here are some keybindings that are used, I didn't want you to know everything so
 
 **Ctrl+y :** Runs python3 on the file.
 
-**Ctrl+n :** Runs node on the file.
+**Ctrl+o :** Runs node on the file.
 
 **Ctrl+N :** Autocomplete.
 
@@ -87,7 +87,7 @@ Here are some keybindings that are used, I didn't want you to know everything so
 
 **<leader>h :** Hovers on a variable (using vim-lsp).
 
-**<leader>f :** S (using vim-lsp).
+**<leader>f :** Format (using vim-lsp).
 
 
 
