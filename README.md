@@ -11,7 +11,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and vim-
 
 # Installation
 ```sh
-# This is assuming you have git and curl installed
+apt install git curl yarn -y --no-install-recommends
 mkdir -p .vim/{plugged, autoload}
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
@@ -21,6 +21,26 @@ vim
 ```
 
 Then sit down and wait for the instalation, it took me 16 minutes on my Samsung Galaxy A2 Core, I hope it isn't that long or you guys but it could a good time to have a coffee-break.
+
+And then run these commands to initialise coc.nvim:
+```sh
+cd ~/.vim/plugged/coc.nvim
+yarn install
+vim
+```
+Boom, Well for me It took me around 10 minutes to finish, I hope it didn't take that long for you, But here you have it, You setted up NVix on Vim.
+
+# Some keybindings
+
+Here are some keybindings that are used, I didn't want you to know everything so  you check the code for other keybindings :
+**<leader> :** SPACE
+**Ctrl+g :** Compiles the C++ file.
+**Ctrl+y :** Runs python3 on the file.
+**Ctrl+n :** Runs node on the file.
+**Ctrl+s :** Runs svelte-check.
+**Ctrl+P :** Runs the ctrlp file explorer
+**<leader>e :** Runs NERDTree
+
 
 # Commits, issues and infos
 
