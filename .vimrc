@@ -122,7 +122,6 @@ let g:coc_global_extensions = [
   \ 'coc-sql',
   \ 'coc-graphql',
   \ 'coc-emmet',
-  \ 'coc-cpp',
   \ ]
 
 set number
