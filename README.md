@@ -11,7 +11,9 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and vim-
 
 # Installation
 ```sh
-# This is assuming you have git installed
+# This is assuming you have git and curl installed
+mkdir -p .vim/{plugged, autoload}
+curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
 cd NVix/
 chmod u+x ./exec.sh && ./exec.sh
