@@ -73,7 +73,7 @@ autocmd FileType c,cpp,cxx call lsp#register_server({
 nnoremap <C-g> :!g++ % -o %:r && chmod u+x ./%:r && ./%:r<CR>
 nnoremap <C-y> :!python3 %<CR>
 nnoremap <C-n> :w<CR>:!node %<CR> 
-nnoremap <C-s> :w<CR>:!svelte-check %<CR> 
+nnoremap <C-s> :w<CR>:!npx svelte-check %<CR> 
 nnoremap <C-p> :CtrlP<CR>
 nnoremap <C-b> :!chmod u+x ./%:r && ./%:r<CR>
 nnoremap <F2> :w<CR> 
