@@ -91,8 +91,7 @@ Here are some keybindings that are used, I didn't want you to know everything so
 
 **<leader>r :** Rename a variable globally (using vim-lsp).
 
-
-
+**<leader>t :** Toggle ALE.
 
 # Commits, issues and infos
 
