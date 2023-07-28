@@ -22,7 +22,6 @@ Plug 'yuezk/vim-js'
 Plug 'tpope/vim-surround' 
 Plug 'neoclide/coc.nvim' 
 Plug 'octol/vim-cpp-enhanced-highlight'
-Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 if empty(glob('~/.vim/plugged/'))
     PlugInstall
