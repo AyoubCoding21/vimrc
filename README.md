@@ -14,7 +14,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE, vim-lsp
 *Linux users :*
 
 ```sh
-apt install git curl yarnpkg -y --no-install-recommends npm
+apt install git curl -y --no-install-recommends npm
 mkdir -p ~/.vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
@@ -39,19 +39,12 @@ Then sit down and wait for the instalation, it took me 16 minutes on my Samsung 
 
 And then run these commands to initialise coc.nvim:
 
-*Termux users :*
+*All users :*
 
 ```sh
-cd ~/.vim/plugged/coc.nvim
-yarn install
-vim
-```
-
-*Linux users :*
-
-```sh
-cd ~/.vim/plugged/coc.nvim
-yarnpkg install
+# Stay on the NVix directory 
+unzip coc-nvim.zip
+mv coc.nvim/ ~/.vim/plugged/ -rf
 vim
 ```
 
