@@ -45,10 +45,9 @@ And then run these commands to initialise coc.nvim:
 # Stay on the NVix directory 
 unzip coc-nvim.zip
 mv coc.nvim/ ~/.vim/plugged/ -rf
+rm coc-nvim.zip -f
 vim
 ```
-
-If you have problems setting up this command, please open an issue.
 
 Boom, Well for me It took me around 9 minutes to finish, I hope it didn't take that long for you, But here you have it, You setted up NVix on Vim.
 
