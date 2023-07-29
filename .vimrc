@@ -27,8 +27,6 @@ if empty(glob('~/.vim/plugged/'))
     PlugInstall
 endif
 call plug#end()
-set runtimepath=~/.vim/autoload/*
-set runtimepath=~/.vim/plugged/*
 syntax enable
 colo onedark
 nnoremap <SPACE> <Nop>
