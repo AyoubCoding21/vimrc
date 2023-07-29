@@ -118,7 +118,6 @@ let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-python',
   \ 'coc-sql',
-  \ 'coc-graphql',
   \ 'coc-emmet',
   \ ]
 
