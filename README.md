@@ -46,6 +46,8 @@ And then run these commands to initialise coc.nvim:
 unzip coc-nvim.zip
 mv coc.nvim/ ~/.vim/plugged/ -rf
 rm coc-nvim.zip -f
+cd ~/.vim/plugged/coc.nvim
+npm i --include-optional && yarn install
 vim
 ```
 
