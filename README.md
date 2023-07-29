@@ -51,8 +51,6 @@ Boom, Well for me It took me around 9 minutes to finish, I hope it didn't take t
 
 ***Attention !!!!*** : If the coc.nvim installation when you open vim does errors, just close and reopen vim, And do like that, until everything is installed.
 
-And if it gives this error : *failed to load colors/lists/default.vim* Just press enter.
-
 # Some keybindings
 
 Here are some keybindings that are used, I didn't want you to know everything so  you check the code for other keybindings :
