@@ -14,7 +14,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE, vim-lsp
 *Linux users :*
 
 ```sh
-apt install git curl -y --no-install-recommends npm
+sudo apt install git curl -y --no-install-recommends npm
 mkdir -p ~/.vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
