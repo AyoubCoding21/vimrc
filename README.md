@@ -57,14 +57,14 @@ And if it gives this error : *failed to load colors/lists/default.vim* Just pres
 
 ```sh
 mkdir ~/.vim/colors
-cp ~/../usr/share/colors/lists -r ~/.vim/colors
+cp ~/../usr/share/vim/vim90/colors/lists -r ~/.vim/colors
 ```
 
 *Linux*:
 
 ```sh
 mkdir ~/.vim/colors
-sudo cp /usr/share/colors/lists -r ~/.vim/colors
+sudo cp /usr/share/vim/vim90/colors/lists -r ~/.vim/colors
 ```
 
 # Some keybindings
