@@ -62,7 +62,7 @@ Boom, Well for me It took me around 9 minutes to finish, I hope it didn't take t
 
 Here are some keybindings that are used, I didn't want you to know everything so  you check the code for other keybindings :
 
-**<leader> :** SPACE
+**leader :** SPACE
 
 **Ctrl+g :** Compiles the C++ file.
 
@@ -76,7 +76,7 @@ Here are some keybindings that are used, I didn't want you to know everything so
 
 **Ctrl+P :** Runs the ctrlp file explorer.
 
-**<leader>e :** Runs NERDTree.
+**leader + e :** Runs NERDTree.
 
 **Ctrl+b :** Runs a sh script.
 
@@ -84,7 +84,7 @@ Here are some keybindings that are used, I didn't want you to know everything so
 
 **F3 :** Split the screen horisontally.
 
-**F4 :**   =    =     =   vertically.
+**F4 :** Split the screen vertically.
 
 **F5 :** Quit.
 
@@ -92,15 +92,15 @@ Here are some keybindings that are used, I didn't want you to know everything so
 
 **F10 :** set invrelativenumbber
 
-**<leader>d :** Shows definition (using vim-lsp).
+**leader + d :** Shows definition (using vim-lsp).
 
-**<leader>h :** Hovers on a variable (using vim-lsp).
+**leader + h :** Hovers on a variable (using vim-lsp).
 
-**<leader>f :** Format (using vim-lsp).
+**leader + f :** Format (using vim-lsp).
 
-**<leader>r :** Rename a variable globally (using vim-lsp).
+**leader + r :** Rename a variable globally (using vim-lsp).
 
-**<leader>t :** Toggle ALE.
+**leader + t :** Toggle ALE.
 
 # Commits, issues and infos
 
