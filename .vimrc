@@ -19,7 +19,7 @@ Plug 'dense-analysis/ale'
 Plug 'MaxMEllon/vim-jsx-pretty' 
 Plug 'jparise/vim-graphql'
 Plug 'yuezk/vim-js'
-Plug 'tpope/vim-surround
+Plug 'tpope/vim-surround'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'honza/vim-snippets'
 if empty(glob('~/.vim/plugged/'))
