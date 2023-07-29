@@ -51,21 +51,7 @@ Boom, Well for me It took me around 9 minutes to finish, I hope it didn't take t
 
 ***Attention !!!!*** : If the coc.nvim installation when you open vim does errors, just close and reopen vim, And do like that, until everything is installed.
 
-And if it gives this error : *failed to load colors/lists/default.vim* Just press enter or run this command :
-
-*Termux*:
-
-```sh
-mkdir ~/.vim/colors
-cp ~/../usr/share/vim/vim90/colors/lists -r ~/.vim/colors
-```
-
-*Linux*:
-
-```sh
-mkdir ~/.vim/colors
-sudo cp /usr/share/vim/vim90/colors/lists -r ~/.vim/colors
-```
+And if it gives this error : *failed to load colors/lists/default.vim* Just press enter.
 
 # Some keybindings
 
