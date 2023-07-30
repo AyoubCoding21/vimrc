@@ -14,7 +14,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE, vim-lsp
 *Linux users :*
 
 ```sh
-sudo apt install git curl -y --no-install-recommends npm
+sudo apt install git curl yarnpkg -y --no-install-recommends npm
 mkdir -p ~/.vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
@@ -42,12 +42,9 @@ And then run these commands to initialise coc.nvim:
 *All users :*
 
 ```sh
-# Stay on the NVix directory 
-unzip coc-nvim.zip
-mv coc.nvim/ ~/.vim/plugged/ -rf
-rm coc-nvim.zip -f
-cd ~/.vim/plugged/coc.nvim
-npm i --include-optional && yarn install
+cd ~/.vim/plugged/coc.nvim/
+rm yarn.lock
+yarnpkg install
 vim
 ```
 
