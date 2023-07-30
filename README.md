@@ -3,7 +3,7 @@ NVix is a lightweight awesome vim configuration for devs and hackers, It got LSP
 # Details
 NVix is lightweight, which makes it really cool for heavy lifted dev.
 
-The *leader* key there is space, and has so good keybindings and even uses LSP for Svelte and SvelteKit developement, JS/TS, C/C++ , GLSL, React and it's brothers, Python and SQL.
+The *leader* key there is space, and has so good keybindings and even uses LSP for Svelte and SvelteKit developement, JS/TS, C/C++ , GLSL, React and it's brothers, Python, SQL and VimScript.
 
 It has also pre-built keybindings for C++, Node, Python and Svelte-check compilation and also has other keybindings alongside the normal vim keybindings.
 
