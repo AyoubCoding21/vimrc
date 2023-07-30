@@ -39,7 +39,16 @@ Then sit down and wait for the instalation, it took me 16 minutes on my Samsung 
 
 And then run these commands to initialise coc.nvim:
 
-*All users :*
+*Termux users :*
+
+```sh
+cd ~/.vim/plugged/coc.nvim/
+rm yarn.lock
+yarn install
+vim
+```
+
+*Linux users :*
 
 ```sh
 cd ~/.vim/plugged/coc.nvim/
