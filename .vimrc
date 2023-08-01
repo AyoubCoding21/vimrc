@@ -57,6 +57,8 @@ nnoremap <leader>r :CocRename<CR>
 nnoremap <leader>f :CocFormat<CR>
 nnoremap <leader>c :CocType<CR>
 nnoremap <leader>x :CocFix<CR>
+nnoremap <C-f> :FZF<CR>
+nnoremap <C-z> :Files<CR>
 inoremap { {}<Esc>i
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
