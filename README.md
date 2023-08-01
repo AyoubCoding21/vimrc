@@ -95,15 +95,21 @@ Here are some keybindings that are used, I didn't want you to know everything so
 
 **F10 :** set invrelativenumbber
 
-**leader + d :** Shows definition (using vim-lsp).
+**leader + d :** Defintion (using coc.nvim)
 
-**leader + h :** Hovers on a variable (using vim-lsp).
+**leader + c :** Type (using coc.nvim)
 
-**leader + f :** Format (using vim-lsp).
+**leader + x :** Fix error (using coc.nvim)
 
-**leader + r :** Rename a variable globally (using vim-lsp).
+**leader + h :** Hover (using coc.nvim)
+
+**leader + r :** Rename (using coc.nvim)
+
+**leader + f :** Format (using coc.nvim)
 
 **leader + t :** Toggle ALE.
+
+**:W :** Switch between multiple tabs.
 
 # Commits, issues and infos
 
