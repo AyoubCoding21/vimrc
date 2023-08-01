@@ -35,7 +35,7 @@ bash ./exec.sh
 vim
 ```
 
-Then sit down and wait for the instalation, it took me 16 minutes on my Samsung Galaxy A2 Core with a Wi-Fi network on the country-side (because It's slow), I hope it isn't that long for you guys but it could a good time to have a coffee-break.
+Then sit down and wait for the instalation, it took me less than 2 minutes on my Samsung Galaxy A2 Core with a Wi-Fi network on the country-side (because It's slow).
 
 And then run these commands to initialise coc.nvim:
 
@@ -44,7 +44,7 @@ And then run these commands to initialise coc.nvim:
 ```sh
 cd ~/.vim/plugged/coc.nvim/
 rm yarn.lock
-yarn install
+yarn install --frozen-lockfile
 vim
 ```
 
@@ -53,7 +53,7 @@ vim
 ```sh
 cd ~/.vim/plugged/coc.nvim/
 rm yarn.lock
-yarnpkg install
+yarnpkg install --frozen-lockfiel
 vim
 ```
 
