@@ -53,7 +53,7 @@ vim
 ```sh
 cd ~/.vim/plugged/coc.nvim/
 rm yarn.lock
-yarnpkg install --frozen-lockfiel
+yarnpkg install --frozen-lockfile
 vim
 ```
 
