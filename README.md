@@ -1,5 +1,6 @@
 # NVix
-NVix is a lightweight awesome vim configuration for devs and hackers, It got LSP, Coc, Airline and other cool plugins. And it has an user-friendly script that configures everything.
+NVix is a lightweight awesome vim configuration for devs and hackers, It got Coc, Airline and other cool plugins. And it has an user-friendly script that configures everything.
+
 # Details
 NVix is lightweight, which makes it really cool for heavy lifted dev.
 
@@ -7,7 +8,7 @@ The *leader* key there is space, and has so good keybindings and even uses LSP f
 
 It has also pre-built keybindings for C++, Node, Python and Svelte-check compilation and also has other keybindings alongside the normal vim keybindings.
 
-For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE, vim-lsp and coc.nvim for LSP and intellisense, Airline and OneDark to make the UI better, JSX, Svelte and GLSL plugins for other programming langs and many others.
+For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.nvim for LSP and intellisense, Airline and OneDark to make the UI better, JSX, Svelte and GLSL plugins for other programming langs and many others.
 
 # Installation
 
@@ -61,9 +62,9 @@ Boom, Well for me It took me around 9 minutes to finish, I hope it didn't take t
 
 ***Attention !!!!*** : If the coc.nvim installation when you open vim does errors, just close and reopen vim, And do like that, until everything is installed.
 
-# Some keybindings
+# Keybindings
 
-Here are some keybindings that are used, I didn't want you to know everything so  you check the code for other keybindings :
+Here are some keybindings that are used :
 
 **leader :** SPACE
 
@@ -110,6 +111,10 @@ Here are some keybindings that are used, I didn't want you to know everything so
 **leader + t :** Toggle ALE.
 
 **:W :** Switch between multiple tabs.
+
+**Ctrl + f :** Open FZF.
+
+**Ctrl + z :** Open Files that show dirs and files with their content.
 
 # Commits, issues and infos
 
