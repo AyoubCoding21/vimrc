@@ -15,7 +15,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.
 *Linux users :*
 
 ```sh
-sudo apt install git curl yarnpkg -y --no-install-recommends npm
+sudo apt install git curl yarnpkg -y --no-install-recommends npm clangd
 mkdir -p ~/.vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
@@ -27,7 +27,7 @@ vim
 *Termux users :*
 
 ```sh
-apt install git curl yarn -y --no-install-recommends nodejs
+apt install git curl yarn -y --no-install-recommends nodejs clangd
 mkdir -p ~/.vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
