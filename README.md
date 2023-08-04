@@ -116,6 +116,10 @@ Here are some keybindings that are used :
 
 **Ctrl + z :** Open Files that show dirs and files with their content.
 
+**Ctrl + TAB :** Moves down in the selection completion tab in coc.nvim
+
+**TAB :** Triggers HTML Emmet Expand Abreviation (When filetype is html) or autocomplete and scroll up in the selection completion tab (coc.nvim)
+
 # Commits, issues and infos
 
 Unfortunately, This script (exec.sh) has only Termux and Debian linux support, but you can copy .vimrc for other OSes.
