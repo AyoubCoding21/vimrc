@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+" List of plugins
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
@@ -26,8 +27,10 @@ endif
 call plug#end()
 syntax enable
 colo onedark
+" Make SPACE usable in keymappings
 nnoremap <SPACE> <Nop>
 let g:mapleader = " "
+" Setting up airline
 let g:airline_theme='onedark'
 set laststatus=2
 let g:airline#extensions#lsp#enabled = 1
@@ -36,6 +39,7 @@ let g:airline_section_r = airline#section#create(['lineinfo', 'percent', 'filefo
 let g:airline_section_x = airline#section#create(['coc'])
 let g:airline#parts#filename#formatter = 'shorten'
 let g:airline#parts#filename#shorten_length = 85
+" Keymappings
 nnoremap <C-g> :!g++ % -o %:r && chmod u+x ./%:r && ./%:r<CR>
 nnoremap <C-y> :!python3 %<CR>
 nnoremap <C-o> :w<CR>:!node %<CR> 
@@ -58,6 +62,7 @@ nnoremap <leader>c :CocType<CR>
 nnoremap <leader>x :CocFix<CR>
 nnoremap <C-f> :FZF<CR>
 nnoremap <C-z> :Files<CR>
+" Auto close tags
 inoremap { {}<Esc>i
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
@@ -70,6 +75,7 @@ inoremap ' ''<Esc>i
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {}<Esc>i
+" Coc extensions
 let g:coc_global_extensions = [
   \ 'coc-tsserver', 
   \ 'coc-svelte', 
@@ -84,6 +90,7 @@ let g:coc_global_extensions = [
   \ 'coc-vimlsp',
   \ 'coc-css',
   \ ]
+" Set autocomplete with TAB 
 function! CheckBackspace() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
@@ -96,9 +103,12 @@ inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <silent><expr> <c-@> coc#refresh()
 inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
 inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
+" Settings for emmet to expand abbreviation when TAB is pressed
 augroup EmmetSettings
   autocmd! FileType html imap <tab> <plug>(emmet-expand-abbr)
 augroup END
+" Setting regular vim params
+set undofile
 set clipboard=unnamedplus
 set showmatch
 set incsearch
@@ -115,6 +125,7 @@ set incsearch
 set number
 set cursorline
 set cursorcolumn
+" Disable scrollbars (hackers don't use scrollbars for navigation)
 set guioptions-=l
 set guioptions-=L
 set guioptions-=r
