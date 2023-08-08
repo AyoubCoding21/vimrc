@@ -27,7 +27,7 @@ vim
 *Termux users :*
 
 ```sh
-apt install git curl yarn -y --no-install-recommends nodejs clangd
+apt install git curl yarn -y --no-install-recommends nodejs clang
 mkdir -p ~/.vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/AyoubCoding21/NVix
