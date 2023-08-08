@@ -82,6 +82,7 @@ let g:coc_global_extensions = [
   \ 'coc-rls',
   \ 'coc-glslx',
   \ 'coc-vimlsp',
+  \ 'coc-css',
   \ ]
 function! CheckBackspace() abort
   let col = col('.') - 1
