@@ -45,7 +45,7 @@ And then run these commands to initialise coc.nvim:
 ```sh
 cd ~/.vim/plugged/coc.nvim/
 rm yarn.lock
-yarn install
+yarn install --frozen-lockfile
 vim
 ```
 
