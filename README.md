@@ -10,6 +10,10 @@ It has also pre-built keybindings for C++, Node, Python and Svelte-check compila
 
 For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.nvim for LSP and intellisense, Airline and OneDark to make the UI better, JSX, Svelte and GLSL plugins for other programming langs and many others.
 
+# Images
+
+[./screen.jpg]
+
 # Installation
 
 *Linux users :*
