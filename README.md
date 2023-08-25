@@ -16,9 +16,7 @@ Linux using Lubuntu with Hack Nerd Regular
 
 ![screen01](https://github.com/AyoubCoding21/NVix/assets/120122307/1bdfd43d-5d48-4c57-93bc-e6ee32dbcd5f)
 
-# Installation
-
-*Linux users :*
+# Preperation for installation
 
 **Note :** For Linux users install Hack Nerd Regular Font and use it, Do not use Hack Nerd Mono-* fonts.
 
@@ -34,6 +32,10 @@ fc-cache -f -v
 ```
 
 Then setup the fonts in Preferences -> Appeareance.
+
+# Installation
+
+*Linux users :*
 
 ```sh
 sudo apt install git curl yarnpkg -y --no-install-recommends npm clangd
