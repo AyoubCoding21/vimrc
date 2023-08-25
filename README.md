@@ -11,7 +11,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.
 
 # Images preview
 
-Linux using Lubuntu with Hack Nerd Regular font
+Linux using Lubuntu with Hack Nerd Regular font.
 
 ![screen01](https://github.com/AyoubCoding21/NVix/assets/120122307/1bdfd43d-5d48-4c57-93bc-e6ee32dbcd5f)
 
