@@ -1,6 +1,5 @@
 # NVix
-NVix is a lightweight awesome vim configuration for devs and hackers, It got cool plugins for developers. And it has an user-friendly script that configures everything.
-
+NVix is a lightweight awesome vim configuration for devs and hackers, It got cool plugins for developers.
 # Details
 NVix is lightweight, which makes it really cool for heavy lifted dev.
 
