@@ -21,6 +21,7 @@ Plug 'tpope/vim-surround'
 Plug 'neoclide/coc.nvim' 
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'honza/vim-snippets'
+Plug 'HerringtonDarkholme/yats.vim'
 if empty(glob('~/.vim/plugged/'))
     PlugInstall
 endif
