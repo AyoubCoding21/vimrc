@@ -7,6 +7,6 @@ then
 else
 	sudo apt install vim -y
  	echo -e "\e[1;33m${bold}Copying files...\e[0m";
-	cp .linux-vimrc ~/.vimrc -rf
+	cp linux.vimrc ~/.vimrc -rf
 fi
 echo -e "\e[1;32m${bold}NVix is installed... Enjoy :)\e[0m";
