@@ -8,7 +8,7 @@ The *leader* key there is space, and has so good keybindings and even uses LSP f
 
 It has also pre-built keybindings for C++, Node, Python and Svelte-check compilation and also has other keybindings alongside the normal vim keybindings.
 
-For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.nvim for LSP and intellisense and error-catching, Airline and OneDark to make the UI better, JSX, Svelte and GLSL plugins for other programming langs and yats and devicons and many others.
+For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.nvim for LSP and intellisense and error-catching, Airline and OneDark to make the UI of vim better, JSX, Svelte and GLSL plugins for other programming langs and yats and devicons and many others.
 
 # Images preview
 
