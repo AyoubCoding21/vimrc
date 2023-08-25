@@ -20,9 +20,7 @@ Plug 'yuezk/vim-js'
 Plug 'tpope/vim-surround' 
 Plug 'neoclide/coc.nvim' 
 Plug 'octol/vim-cpp-enhanced-highlight'
-Plug 'ryanoasis/vim-devicons'
 Plug 'honza/vim-snippets'
-Plug 'HerringtonDarkholme/yats.vim'
 if empty(glob('~/.vim/plugged/'))
     PlugInstall
 endif
@@ -41,24 +39,6 @@ let g:airline_section_r = airline#section#create(['lineinfo', 'percent', 'filefo
 let g:airline_section_x = airline#section#create(['coc'])
 let g:airline#parts#filename#formatter = 'shorten'
 let g:airline#parts#filename#shorten_length = 85
-let g:NERDTreeFileExtensionHighlightFullName = 1
-let NERDTreeHighlightFileTypes = 1
-let NERDTreeShowBookmarks = 1
-let NERDTreeGitStatusIndicatorMapCustom = {
-  \ "Modified"  : "✹",
-  \ "Staged"    : "✚",
-  \ "Untracked" : "✭",
-  \ "Renamed"   : "➜",
-  \ "Unmerged"  : "═",
-  \ "Deleted"   : "✖",
-  \ "Dirty"     : "✗",
-  \ "Clean"     : "✔︎",
-  \ 'Ignored'   : '☒',
-  \ 'Unknown'   : '⚠︎',
-  \ }
-let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-let g:WebDevIconsUnicodeDecorateFileNodes = 1
-let g:yats_host_keyword = 1
 " Keymappings
 nnoremap <C-g> :!g++ % -o %:r && chmod u+x ./%:r && ./%:r<CR>
 nnoremap <C-y> :!python3 %<CR>
@@ -150,4 +130,3 @@ set guioptions-=l
 set guioptions-=L
 set guioptions-=r
 set guioptions-=R
-
