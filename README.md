@@ -30,7 +30,7 @@ cp HackN* ~/.fonts/
 fc-cache -f -v
 ```
 
-Then setup the fonts in Preferences -> Appeareance.
+Then change the font to Hack Nerd Font Regular in Preferences -> Appeareance.
 
 # Installation
 
