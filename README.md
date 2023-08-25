@@ -18,6 +18,9 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.
 
 *Linux users :*
 
+**Note :** For Linux users install Hack Nerd Regular Font and use it, Do not use Hack Nerd Mono-* fonts.
+
+
 ```sh
 sudo apt install git curl yarnpkg -y --no-install-recommends npm clangd
 mkdir -p ~/.vim/autoload
