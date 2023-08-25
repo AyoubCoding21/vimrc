@@ -30,7 +30,7 @@ colo onedark
 " Make SPACE usable in keymappings
 nnoremap <SPACE> <Nop>
 let g:mapleader = " "
-" Setting up airline
+" Setting up airline and YATS
 let g:airline_theme='onedark'
 set laststatus=2
 let g:airline#extensions#lsp#enabled = 1
@@ -39,6 +39,7 @@ let g:airline_section_r = airline#section#create(['lineinfo', 'percent', 'filefo
 let g:airline_section_x = airline#section#create(['coc'])
 let g:airline#parts#filename#formatter = 'shorten'
 let g:airline#parts#filename#shorten_length = 85
+let g:yats_host_keyword = 1
 " Keymappings
 nnoremap <C-g> :!g++ % -o %:r && chmod u+x ./%:r && ./%:r<CR>
 nnoremap <C-y> :!python3 %<CR>
