@@ -32,7 +32,7 @@ colo onedark
 " Make SPACE usable in keymappings
 nnoremap <SPACE> <Nop>
 let g:mapleader = " "
-" Setting up airline
+" Setting up plugins
 let g:airline_theme='onedark'
 set laststatus=2
 let g:airline#extensions#lsp#enabled = 1
