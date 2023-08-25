@@ -144,7 +144,7 @@ Here are some keybindings that are used :
 
 # Commits, issues and infos
 
-Unfortunately, This script (exec.sh) has only Termux and Debian linux support, but you can still copy .vimrc for other OSes and install packages using your package manager.
+Unfortunately, This script (exec.sh) has only Termux and Debian linux support, but you can still copy .vimrc for other OSes and install packages using your system's package manager.
 
 I will be happy for commits and issues and pull requests so we can make our software better.
 
