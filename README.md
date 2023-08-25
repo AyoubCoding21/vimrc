@@ -22,6 +22,18 @@ Linux using Lubuntu with Hack Nerd Regular
 
 **Note :** For Linux users install Hack Nerd Regular Font and use it, Do not use Hack Nerd Mono-* fonts.
 
+To install Hack Nerd fonts :
+
+```sh
+sudo apt install unzip wget -y --no-install-recommends
+wget -o Hack.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
+mkdir ~/.fonts/
+unzip Hack.zip
+cp HackN* ~/.fonts/
+fc-cache -f -v
+```
+
+Then setup the fonts in Preferences -> Appeareance.
 
 ```sh
 sudo apt install git curl yarnpkg -y --no-install-recommends npm clangd
