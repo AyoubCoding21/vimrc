@@ -12,7 +12,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.
 
 # Images preview
 
-![screen](https://github.com/AyoubCoding21/NVix/assets/120122307/08ca498b-4c28-48f6-a336-30ec4483dbfa)
+
 
 # Installation
 
