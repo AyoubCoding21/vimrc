@@ -13,7 +13,7 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.
 
 Linux using Lubuntu with Hack Nerd Regular font.
 
-![screen01](https://github.com/AyoubCoding21/NVix/assets/120122307/1bdfd43d-5d48-4c57-93bc-e6ee32dbcd5f)
+![screen02](https://github.com/AyoubCoding21/NVix/assets/120122307/b8ccc32c-f30c-4e0c-bdaa-3babe4080f0b)
 
 # Preperation for installation
 
@@ -24,7 +24,8 @@ To install Hack Nerd fonts :
 ```sh
 sudo apt install unzip wget -y --no-install-recommends
 wget -o Hack.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
-mkdir ~/.fonts/
+if [ ! -d ~/.fonts/ ]
+  mkdir ~/.fonts/
 unzip Hack.zip
 cp HackN* ~/.fonts/
 fc-cache -f -v
