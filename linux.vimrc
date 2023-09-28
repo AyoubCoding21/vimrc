@@ -105,7 +105,7 @@ let g:coc_global_extensions = [
   \ 'coc-sql',
   \ 'coc-graphql',
   \ 'coc-emmet',
-  \ 'coc-rls',
+  \ 'coc-rust-analyzer',
   \ 'coc-glslx',
   \ 'coc-vimlsp',
   \ 'coc-css',
@@ -145,6 +145,8 @@ set incsearch
 set number
 set cursorline
 set cursorcolumn
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
 " Disable scrollbars (hackers don't use scrollbars for navigation)
 set guioptions-=l
 set guioptions-=L
