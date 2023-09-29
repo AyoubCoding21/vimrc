@@ -23,7 +23,7 @@ To install Hack Nerd fonts :
 
 ```sh
 sudo apt install unzip wget -y --no-install-recommends
-wget -o Hack.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 if [ ! -d ~/.fonts/ ]
 then
   mkdir ~/.fonts/
