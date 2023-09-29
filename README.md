@@ -40,7 +40,7 @@ Restart your terminal, then change the font to Hack Nerd Font Regular in Prefere
 *Linux users :*
 
 ```sh
-sudo apt install git curl yarnpkg -y --no-install-recommends npm clangd
+sudo apt install git curl -y --no-install-recommends npm clangd
 mkdir -p ~/.vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone --depth=1 https://github.com/AyoubCoding21/NVix
@@ -52,7 +52,7 @@ vim
 *Termux users :*
 
 ```sh
-apt install git curl yarn -y --no-install-recommends nodejs clang
+apt install git curl -y --no-install-recommends nodejs clang
 mkdir -p ~/.vim/autoload
 curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone --depth=1 https://github.com/AyoubCoding21/NVix
@@ -69,8 +69,7 @@ And then run these commands to initialise coc.nvim:
 
 ```sh
 cd ~/.vim/plugged/coc.nvim/
-rm yarn.lock
-yarn install --frozen-lockfile
+npm ci
 vim
 ```
 
@@ -78,10 +77,28 @@ vim
 
 ```sh
 cd ~/.vim/plugged/coc.nvim/
-rm yarn.lock
-yarnpkg install --frozen-lockfile
+npm ci
 vim
 ```
+If you got an old node version (that's what happened with me), run these commands:
+
+*Linux users :*
+
+```sh
+npm i n
+sudo n latest
+bash
+```
+
+*Termux users :*
+
+```sh
+npm i n
+n latest
+bash
+```
+
+And then run the commands above to install and compile coc.nvim.
 
 Boom, Well for me It took me around 9 minutes to finish depending on your Internet connection, I hope it didn't take that long for you, But here you have it, You setted up NVix on Vim.
 
