@@ -25,13 +25,15 @@ To install Hack Nerd fonts :
 sudo apt install unzip wget -y --no-install-recommends
 wget -o Hack.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 if [ ! -d ~/.fonts/ ]
+then
   mkdir ~/.fonts/
+fi
 unzip Hack.zip
 cp HackN* ~/.fonts/
 fc-cache -f -v
 ```
 
-Then change the font to Hack Nerd Font Regular in Preferences -> Appeareance.
+Restart your terminal, then change the font to Hack Nerd Font Regular in Preferences -> Appeareance.
 
 # Installation
 
