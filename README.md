@@ -85,7 +85,7 @@ If you got an old node version (that's what happened with me), run these command
 *Linux users :*
 
 ```sh
-npm i n
+sudo npm i n -g
 sudo n latest
 bash
 ```
@@ -93,7 +93,7 @@ bash
 *Termux users :*
 
 ```sh
-npm i n
+npm i n -g
 n latest
 bash
 ```
