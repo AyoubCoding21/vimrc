@@ -32,3 +32,13 @@ installtermux:
 	apt install git curl -y --no-install-recommends nodejs clang
 	mkdir -p ~/.vim/autoload
 	curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+updatelinux:
+	sudo npm i n -g
+	sudo n latest
+	bash
+
+updatetermux:
+	npm i n -g
+	n latest
+	bash
