@@ -11,3 +11,15 @@ all:
 		cp linux.vimrc ~/.vimrc -rf
 	fi
 	echo -e "\e[1;32m${bold}NVix is installed... Enjoy :)\e[0m";
+
+fontsinstall:
+	sudo apt install unzip wget -y --no-install-recommends
+	wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
+	if [ ! -d ~/.fonts/ ]
+	then
+  		mkdir ~/.fonts/
+	fi
+	unzip Hack.zip
+	cp HackN* ~/.fonts/
+	fc-cache -f -v
+
