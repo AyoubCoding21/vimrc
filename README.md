@@ -31,27 +31,21 @@ Restart your terminal, then change the font to Hack Nerd Font Regular in Prefere
 
 # Installation
 
+**Attention : Clone the repo before you do any of this and install make !**
+
 *Linux users :*
 
 ```sh
-sudo apt install git curl -y --no-install-recommends npm clangd
-mkdir -p ~/.vim/autoload
-curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-git clone --depth=1 https://github.com/AyoubCoding21/NVix
-cd NVix/
-chmod u+x ./exec.sh && ./exec.sh
+make installinux
+make all
 vim
 ```
 
 *Termux users :*
 
 ```sh
-apt install git curl -y --no-install-recommends nodejs clang
-mkdir -p ~/.vim/autoload
-curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-git clone --depth=1 https://github.com/AyoubCoding21/NVix
-cd NVix/
-bash ./exec.sh
+make installtermux
+make all
 vim
 ```
 
@@ -59,37 +53,24 @@ Then sit down and wait for the instalation, it took me less than 2 minutes on my
 
 And then run these commands to initialise coc.nvim:
 
-*Termux users :*
+*All users :*
 
 ```sh
-cd ~/.vim/plugged/coc.nvim/
-npm ci
-vim
+make cocinstall
 ```
 
-*Linux users :*
-
-```sh
-cd ~/.vim/plugged/coc.nvim/
-npm ci
-vim
-```
 If you got an old node version (that's what happened with me), run these commands:
 
 *Linux users :*
 
 ```sh
-sudo npm i n -g
-sudo n latest
-bash
+make updatelinux
 ```
 
 *Termux users :*
 
 ```sh
-npm i n -g
-n latest
-bash
+make updatetermux
 ```
 
 And then run the commands above to install and compile coc.nvim.
