@@ -42,3 +42,8 @@ updatetermux:
 	npm i n -g
 	n latest
 	bash
+
+cocinstall:
+	cd ~/.vim/plugged/coc.nvim/
+	npm ci
+	vim
