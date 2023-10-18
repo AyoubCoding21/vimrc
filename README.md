@@ -22,15 +22,9 @@ Linux using Lubuntu with Hack Nerd Regular font.
 To install Hack Nerd fonts :
 
 ```sh
-sudo apt install unzip wget -y --no-install-recommends
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
-if [ ! -d ~/.fonts/ ]
-then
-  mkdir ~/.fonts/
-fi
-unzip Hack.zip
-cp HackN* ~/.fonts/
-fc-cache -f -v
+sudo apt install git make -y --no-install-recommends
+git clone https://github.com/AyoubCoding21/NVix
+make fontsinstall
 ```
 
 Restart your terminal, then change the font to Hack Nerd Font Regular in Preferences -> Appeareance.
