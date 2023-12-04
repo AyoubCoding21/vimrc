@@ -17,7 +17,7 @@ Linux using Lubuntu with Hack Nerd Regular font.
 
 # Preperation for installation
 
-**Note :** For Linux users install Hack Nerd Regular Font and use it, Do not use Hack Nerd Mono-* fonts.
+**Note :** For Linux users only, install Hack Nerd Regular Font and use it, Do not use Hack Nerd Mono-* fonts.
 
 To install Hack Nerd fonts :
 
@@ -31,7 +31,7 @@ Restart your terminal, then change the font to Hack Nerd Font Regular in Prefere
 
 # Installation
 
-**Attention : Clone the repo before you do any of this and install make !**
+**Attention : Clone the repo before you do any of this and install make !! But before, if you did the previous step you have nothing to worry, but Termux users must clone the repo and install make !**
 
 *Linux users :*
 
