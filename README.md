@@ -22,7 +22,7 @@ Linux using Lubuntu with Hack Nerd Regular font.
 To install Hack Nerd fonts :
 
 ```sh
-sudo apt install git make -y --no-install-recommends
+sudo apt install git -y --no-install-recommends
 git clone https://github.com/AyoubCoding21/NVix
 bash installfonts.sh
 ```
@@ -31,7 +31,7 @@ Restart your terminal, then change the font to Hack Nerd Font Regular in Prefere
 
 # Installation
 
-**Attention : Clone the repo before you do any of this and install make !! But before, if you did the previous step you have nothing to worry, but Termux users must clone the repo and install make !**
+**Attention : Clone the repo before you do any of this !! But before, if you did the previous step you have nothing to worry, but Termux users must clone the repo !**
 
 *Linux users :*
 
