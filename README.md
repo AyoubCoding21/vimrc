@@ -38,7 +38,7 @@ First go to the NVix directory after cloning and :
 *Linux users :*
 
 ```sh
-bash installtermux.sh && bash copy.sh
+bash installinux.sh && bash copy.sh
 vim
 ```
 
