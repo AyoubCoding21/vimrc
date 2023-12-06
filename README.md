@@ -33,6 +33,8 @@ Restart your terminal, then change the font to Hack Nerd Font Regular in Prefere
 
 **Attention : Clone the repo before you do any of this !! But before, if you did the previous step you have nothing to worry, but Termux users must clone the repo !**
 
+First go to the NVix directory after cloning and :
+
 *Linux users :*
 
 ```sh
