@@ -1,7 +1,7 @@
-# NVix
-NVix is a lightweight awesome vim configuration for devs and hackers, It got cool plugins for developers.
+# My vimrc
+This is a lightweight awesome vim configuration for devs and hackers, It got cool plugins for developers.
 # Details
-NVix is lightweight, which makes it really cool for heavy lifted dev. But also has cool tricks, plugins and functions for developers and hackers to provide them with the best experience.
+It is lightweight, which makes it really cool for heavy lifted dev. But also has cool tricks, plugins and functions for developers and hackers to provide them with the best experience.
 
 The *leader* key there is space, and has cool keybindings and even uses LSP for Svelte and SvelteKit developement, JS/TS, C/C++ , GLSL, React and it's brothers, Python, SQL and VimScript.
 
@@ -23,7 +23,7 @@ To install Hack Nerd fonts :
 
 ```sh
 sudo apt install git -y --no-install-recommends
-git clone https://github.com/AyoubCoding21/NVix
+git clone https://github.com/AyoubCoding21/vimrc
 bash installfonts.sh
 ```
 
