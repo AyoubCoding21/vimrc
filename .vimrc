@@ -17,8 +17,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'dense-analysis/ale' 
 Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'yuezk/vim-js'
-Plug 'tpope/vim-surround' 
-Plug 'neoclide/coc.nvim' 
+Plug 'tpope/vim-surround'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'honza/vim-snippets'
 Plug 'HerringtonDarkholme/yats.vim'
@@ -37,7 +36,7 @@ set laststatus=2
 let g:airline#extensions#lsp#enabled = 1
 let g:airline_section_l = airline#section#create(['filename', 'paste', 'lsp'])
 let g:airline_section_r = airline#section#create(['lineinfo', 'percent', 'fileformat', 'fileencoding', 'filetype'])
-let g:airline_section_x = airline#section#create(['coc'])
+let g:airline_section_x = airline#section#create(['editor'])
 let g:airline#parts#filename#formatter = 'shorten'
 let g:airline#parts#filename#shorten_length = 85
 let g:yats_host_keyword = 1
@@ -56,12 +55,6 @@ nnoremap <F9> :set invnumber<CR>
 nnoremap <F10> :set invrelativenumber<CR>
 nnoremap <leader>t :ALEToggle<CR>
 nnoremap <leader>e :NERDTreeCWD<CR>
-nnoremap <leader>d :CocDefinition<CR>
-nnoremap <leader>h :CocHover<CR>
-nnoremap <leader>r :CocRename<CR>
-nnoremap <leader>f :CocFormat<CR>
-nnoremap <leader>c :CocType<CR>
-nnoremap <leader>x :CocFix<CR>
 nnoremap <C-f> :FZF<CR>
 nnoremap <C-z> :Files<CR>
 " Auto close tags
@@ -76,37 +69,10 @@ inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
-inoremap { {}<Esc>i
-" Coc extensions
-let g:coc_global_extensions = [
-  \ 'coc-tsserver', 
-  \ 'coc-svelte', 
-  \ 'coc-clangd',
-  \ 'coc-json',
-  \ 'coc-python',
-  \ 'coc-sql',
-  \ 'coc-emmet',
-  \ 'coc-rust-analyzer',
-  \ 'coc-glslx',
-  \ 'coc-vimlsp',
-  \ 'coc-css',
-  \ ]
-" Set autocomplete with TAB 
-function! CheckBackspace() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-inoremap <silent><expr> <Tab>
-      \ coc#pum#visible() ? coc#pum#next(1) :
-      \ CheckBackspace() ? "\<Tab>" :
-      \ coc#refresh()
-inoremap <silent><expr> <c-space> coc#refresh()
-inoremap <silent><expr> <c-@> coc#refresh()
-inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
-inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
+inoremap { {}<Esc>
 " Settings for emmet to expand abbreviation when TAB is pressed
 augroup EmmetSettings
-  autocmd! FileType html imap <tab> <plug>(emmet-expand-abbr)
+  autocmd! FileType html svelte jsx tsx imap <tab> <plug>(emmet-expand-abbr)
 augroup END
 " Setting regular vim params
 set undofile
