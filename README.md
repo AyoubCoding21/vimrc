@@ -51,7 +51,7 @@ vim
 
 Then sit down and wait for the instalation, it took me less than 2 minutes on my Samsung Galaxy A2 Core with a Wi-Fi network on the country-side (because It's slow).
 
-Then run these commands (Termux only remove sudos):
+Then run these commands (Linux only):
 
 ```sh
 sudo npm i -g n
@@ -60,7 +60,7 @@ sudo n latest
 
 And then run these commands to initialise coc.nvim:
 
-*All users :*
+*Linux users :*
 
 ```sh
 bash cocinstall.sh
