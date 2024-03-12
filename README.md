@@ -23,7 +23,7 @@ To install Hack Nerd fonts :
 
 ```sh
 sudo apt install git -y --no-install-recommends
-git clone https://github.com/AyoubCoding21/vimrc
+git clone https://github.com/AyoubCoding21/vimrc && cd vimrc
 bash installfonts.sh
 ```
 
