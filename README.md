@@ -11,9 +11,9 @@ For plugins, it uses fzf, fzf.vim and ctrlp.vim for file searching, ALE and coc.
 
 # Images preview
 
-Linux using Xubuntu 22.04.3 with Hack Nerd Regular font.
+Windows 10 (MSYS):
 
-![Screenshot_2023-12-06_22-55-56](https://github.com/AyoubCoding21/NVix/assets/120122307/f772cb54-3775-44c2-bbf9-3a49e5162b93)
+<img width="1280" height="1024" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/9e233d45-d138-4564-b934-f4d20443ffb8" />
 
 # Preperation for installation
 
@@ -70,63 +70,6 @@ Boom, Well for me It took me around 9 minutes to finish depending on your Intern
 
 ***Attention !!!!*** : If the coc.nvim installation when you open vim does errors, just close and reopen vim, And do like that, until everything is installed.
 
-# Keybindings
-
-Here are some keybindings that are used :
-
-**leader :** SPACE
-
-**Ctrl+g :** Compiles the C++ file.
-
-**Ctrl+y :** Runs python3 on the file.
-
-**Ctrl+o :** Runs node on the file.
-
-**Ctrl+N :** Autocomplete.
-
-**Ctrl+s :** Runs svelte-check.
-
-**Ctrl+P :** Runs the ctrlp file explorer.
-
-**leader + e :** Runs NERDTree.
-
-**Ctrl+b :** Runs a sh script.
-
-**F2 :** Save the file.
-
-**F3 :** Split the screen horisontally.
-
-**F4 :** Split the screen vertically.
-
-**F5 :** Quit.
-
-**F9 :** set invnumber
-
-**F10 :** set invrelativenumbber
-
-**leader + d :** Defintion (using coc.nvim)
-
-**leader + c :** Type (using coc.nvim)
-
-**leader + x :** Fix error (using coc.nvim)
-
-**leader + h :** Hover (using coc.nvim)
-
-**leader + r :** Rename (using coc.nvim)
-
-**leader + f :** Format (using coc.nvim)
-
-**leader + t :** Toggle ALE.
-
-**:W :** Switch between multiple tabs.
-
-**Ctrl + f :** Open FZF.
-
-**Ctrl + z :** Open Files that show dirs and files with their content.
-
-**Ctrl + TAB :** Moves down in the selection completion tab in coc.nvim
-
-**TAB :** Triggers HTML Emmet Expand Abreviation (When filetype is html) or autocomplete and scroll up in the selection completion tab (coc.nvim)
 
 # Commits, issues and infos
 
