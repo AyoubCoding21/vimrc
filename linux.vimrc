@@ -68,6 +68,7 @@ set splitbelow
 set splitright
 set timeoutlen=500
 set updatetime=300
+let mapleader=" "
 
 let g:indent_blankline_char = '┊'
 let g:indent_blankline_show_trailing_blankline_indent = v:false
